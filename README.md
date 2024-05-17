@@ -35,6 +35,8 @@ what is that.sh
 Rceptionist:
 实现了机器人招待客人的过程
 class中main函数为 任务流程
+<img width="1409" alt="6a843e9f30220092e7f8bbf770665b3" src="https://github.com/mvyp/Robocup_2024/assets/142517129/e9834a4e-badc-4c61-a8d5-bc5bec212998">
+
 
 主要看 mian 及 类的init
 
