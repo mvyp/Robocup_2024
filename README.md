@@ -2,20 +2,19 @@
 # teamwork
 HARROLD_xjw
 Kinova robotic arm kinect     Arzue depth camera     McNamullen   usb485
-
-#tidu_up.sh:
+# tidu_up.sh:
 The robot can automatically navigate to the desktop to clean up garbage in the home environment: identify the type of object, grab it and throw it to the trash can or put it back
 use the point cloud, calculate the depth information of bounding_box pixels to process the average, and get the position coordinates of the center of gravity point of the object relative to the camera, 
 and publish it through tf
 The basic functions of navigation goto (goal) and speech are defined
 The robot human is defined so that navigation, robotic arm visual grasping and speech functions can be integrated
 
-#comupter vision:
+# comupter vision:
 gpd_ros object_position.py
 Yolov5_ros yolov5.launch
 
 
-#navigation and slam:
+navigation and slam:
 res.launch
 slam.launch
 navigation.launch
@@ -27,14 +26,14 @@ take the object to placement2
 find the object which we need
 person how many |gender|--unfinishd
 
-#what is that:
+# what is that:
 what is that.sh
 The second line needs to start conda pytorch separately
 The right hand is placed on the left shoulder to activate the follower
 Raising your arm upwards activates the recognition function, which then points to the object you want it to broadcast.
 The robot calculates the point of your finger, follows you and broadcasts the type of object you are pointing to and features such as color
 
-#Rceptionist:
+# Rceptionist:
 The process of robot entertaining guests is realized
 It can realize the autonomous door opening voice to ask the guest to like the drink and guide the guest to sit on the empty sofa
 The main function in class is the task flow
@@ -44,7 +43,7 @@ The main function in class is the task flow
 
 navigation--self.goto(0,0,0)
 
-#Speech to text
+# Speech to text
 Azure subscriptions expire
 The rviz node of the camera --notic same node name
 Multithreading calls do not interrupt _thread.start_new_thread(text_to_speech, ("task begin!" ))
@@ -55,16 +54,16 @@ Text-to-speech speech_to_text returns text
 TF tree view error --rosrun rqt_tf_tree rqt_tf_tree
 Node versus topic check --rosrun rqt_graph rqt_graph
 
-#Debug position and orientation:
+Debug position and orientation:
 Save the map:
 rosrun map_server map_saver -f my2024_map
 python3 '/home/xxx/scripts/teleop_twist_keyboard/teleop_twist_keyboard.py'
 
 The whole point of github is to be able to look at commits and see what's different
 
-#Thanks to all the members of the 2024 BUCT Robotics Center
+# Thanks to all the members of the 2024 BUCT Robotics Center
 
-#Thank you for your vital help in previous years
+# Thank you for your vital help in previous years
 
 
 # Robocup_2024
