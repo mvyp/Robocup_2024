@@ -56,15 +56,14 @@ TF tree view error --rosrun rqt_tf_tree rqt_tf_tree
 Node versus topic check --rosrun rqt_graph rqt_graph
 
 Debug position and orientation:
-<! -- ============== Rviz MAP position ==============-->
-<node if="$(arg rviz)" pkg="rviz" type="rviz" name="rviz" required="true"
-args="-d $(find mrobot_navigation)/rviz/mrobot_nav.rviz"/>
 Save the map:
 rosrun map_server map_saver -f my2024_map
 python3 '/home/msi/robocup_ws/src/mrobot/mrobot_bringup/scripts/teleop_twist_keyboard/teleop_twist_keyboard.py'
 
 The whole point of github is to be able to look at commits and see what's different
+
 Thanks to all the members of the 2024 BUCT Robotics Center
+
 Thank you for your vital help in previous years
 
 
