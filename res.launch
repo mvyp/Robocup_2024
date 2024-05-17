@@ -1,0 +1,32 @@
+<launch>
+
+    <arg name="rviz" 		default="true"/>
+
+    <!-- 启动MRobot -->
+    <include file="$(find mrobot_bringup)/launch/mrobot_core.launch"/>
+
+    <include file="$(find lakibeam1)/launch/lakibeam1_scan.launch" />
+
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base2laser" args="0.205 0 0 0 0 0   base_link laser "/>
+
+    <!-- pan_tilt and kinect -->
+<!-- 
+    <include file="$(find pan_tilt_bringup)/launch/panTilt_bringup.launch" />
+ss
+    <node pkg="tf2_ros" type="static_transform_publisher" name="pan2kinect" args="0 0 0 0 0 0   pan_tilt_surface camera_base "/>
+
+    <include file="$(find azure_kinect_ros_driver)/launch/driver.launch">
+      <arg name="body_tracking_enabled" value="false" />
+      <arg name="overwrite_robot_description" default="false" /> 
+      <arg name="body_tracking_smoothing_factor"  default="0.0" /> 
+      <arg name="fps"                     default="5" />            
+  </include> -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="base2root" args="0.1 0 0.03  1.57 0 0  base_link world "/> -->
+
+  <!-- <node if="$(arg rviz)" pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find mrobot_bringup)/rviz/what_is_that.rviz"/> -->
+
+  <include file="$(find mrobot_navigation)/launch/navigation.launch">
+    <arg name="map" value="map.yaml" />
+</include>  
+
+</launch>
