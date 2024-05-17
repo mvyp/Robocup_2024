@@ -38,7 +38,6 @@ Rceptionist:
 The process of robot entertaining guests is realized
 It can realize the autonomous door opening voice to ask the guest to like the drink and guide the guest to sit on the empty sofa
 The main function in class is the task flow
-![image](https://github.com/mvyp/Robocup_2024/assets/142517129/0ba90f7d-bbec-4256-981e-ecce762f160a)
 
 
  mian class init
