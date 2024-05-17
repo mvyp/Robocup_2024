@@ -1,6 +1,8 @@
 # Robocup_2024
-# teamwork    HARROLDX_xjw
+# teamwork
+HARROLD_xjw
 Kinova 机械臂 kinect Arzue深度相机 
+
 tidu_up.sh：
 实现了机器人在家庭环境中，自动导航至桌面清理垃圾的流程：识别物体类型 抓取并扔到垃圾桶或放回原处
 定义了导航和语音的基本函数
