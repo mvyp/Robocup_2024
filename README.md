@@ -63,7 +63,7 @@ The whole point of github is to be able to look at commits and see what's differ
 
 # Thanks to all the members of the 2024 BUCT Robotics Center
 
-# Thank you for your vital help in previous years
+# Thank senior schoolmates for vital help 
 
 
 # Robocup_2024
@@ -130,3 +130,5 @@ rosrun map_server map_saver -f my2024_map
 python3 '/home/msi/robocup_ws/src/mrobot/mrobot_bringup/scripts/teleop_twist_keyboard/teleop_twist_keyboard.py' 
 
 用github的目的是可以查看提交的修改记录，找到每次不同
+感谢2024机器人中心所有成员的努力
+感谢往届学长的至关重要的帮助
