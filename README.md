@@ -65,6 +65,7 @@ The whole point of github is to be able to look at commits and see what's differ
 
 # Thank senior schoolmates for vital help 
 
+![Uploading cb0220e2bdb59df3a1429d942ca2bf2.jpg…]()
 
 # Robocup_2024
 # teamwork
