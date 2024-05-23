@@ -65,7 +65,6 @@ The whole point of github is to be able to look at commits and see what's differ
 
 # Thank senior schoolmates for vital help 
 
-![Uploading cb0220e2bdb59df3a1429d942ca2bf2.jpg…]()
 
 # Robocup_2024
 # teamwork
@@ -129,6 +128,8 @@ args="-d $(find mrobot_navigation)/rviz/mrobot_nav.rviz"/>
 保存地图：
 rosrun map_server map_saver -f my2024_map
 python3 '/home/msi/robocup_ws/src/mrobot/mrobot_bringup/scripts/teleop_twist_keyboard/teleop_twist_keyboard.py' 
+![eb2bfe97192feb813110e6f5cb01d17](https://github.com/mvyp/Robocup_2024/assets/142517129/2c215d19-3414-4eeb-86c5-33a0da105222)
+
 
 用github的目的是可以查看提交的修改记录，找到每次不同
 感谢2024机器人中心所有成员的努力
