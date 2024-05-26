@@ -1,6 +1,8 @@
 # Robocup_2024
 # teamwork
-HARROLD_xjw
+# Video 
+https://www.bilibili.com/video/BV1Yw4m1S7pn/?share_source=copy_web&vd_source=1d11b082e214e205bf1127f07df592b2
+# HARROLD_xjw
 Kinova robotic arm kinect     Arzue depth camera     McNamullen   usb485
 # tidu_up.sh:
 The robot can automatically navigate to the desktop to clean up garbage in the home environment: identify the type of object, grab it and throw it to the trash can or put it back
@@ -9,7 +11,7 @@ and publish it through tf
 The basic functions of navigation goto (goal) and speech are defined
 The robot human is defined so that navigation, robotic arm visual grasping and speech functions can be integrated
 
-# comupter vision:
+# vision:
 gpd_ros object_position.py
 Yolov5_ros yolov5.launch
 
@@ -103,7 +105,6 @@ what is that.sh
 Rceptionist:
 实现了机器人招待客人的过程
 class中main函数为 任务流程
-<img width="1409" alt="6a843e9f30220092e7f8bbf770665b3" src="https://github.com/mvyp/Robocup_2024/assets/142517129/e9834a4e-badc-4c61-a8d5-bc5bec212998">
 
 
 主要看 mian 及 类的init
