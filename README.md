@@ -1,13 +1,13 @@
-![image](https://github.com/mvyp/Robocup_2024/assets/142517129/c9420f36-da5a-4373-928a-3298550abda3)![image](https://github.com/mvyp/Robocup_2024/assets/142517129/a8e198dd-fe9e-4504-9539-a658599d6c16)# Robocup_2024
+# Robocup_2024
 # teamwork
 # Video 
 https://www.bilibili.com/video/BV1Yw4m1S7pn/?share_source=copy_web&vd_source=1d11b082e214e205bf1127f07df592b2
 # HARROLD_xjw
-Kinova robotic arm kinect     Arzue depth camera     McNamullen   usb485
+Kinova robotic arm kinect   Arzue depth camera     usb485  
 # tidu_up.sh:
 The robot can automatically navigate to the desktop to clean up garbage in the home environment: YOLOV5 identify the type of object, grab it and throw it to the trash can or put it back
 
-use the point cloud, calculate the depth information of bounding_box pixels to process the average, and get the position coordinates of the center of gravity point of the object relative to the camera, 
+Use the point cloud, calculate the depth information of bounding_box pixels to process the average, and get the position coordinates of the center of gravity point of the object relative to the camera, 
 publish its tf
 
 The basic functions of navigation goto (goal) and speech are defined
@@ -16,6 +16,7 @@ The robot human is defined so that navigation, robotic arm visual grasping and s
 
 # vision:
 gpd_ros object_position.py
+
 Yolov5_ros yolov5.launch
 
 
@@ -27,7 +28,7 @@ navigation.launch
 
 
 GPSR: Difficult
-follwer# own operator
+follwer
 take the object to placement2
 find the object which we need
 person how many |gender|--unfinishd
@@ -65,7 +66,7 @@ TF tree view error --rosrun rqt_tf_tree rqt_tf_tree
 
 Node versus topic check --rosrun rqt_graph rqt_graph
 
-# Debug position and orientation:
+# position and orientation:
 Save the map:
 rosrun map_server map_saver -f my2024_map
 python3 '/home/xxx/scripts/teleop_twist_keyboard/teleop_twist_keyboard.py'
