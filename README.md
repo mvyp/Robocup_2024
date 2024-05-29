@@ -5,7 +5,9 @@ https://www.bilibili.com/video/BV1Yw4m1S7pn/?share_source=copy_web&vd_source=1d1
 # HARROLD_xjw
 Kinova robotic arm kinect   Arzue depth camera     usb485  
 # tidu_up.sh:
-The robot can automatically navigate to the desktop to clean up garbage in the home environment: YOLOV5 identify the type of object, grab it and throw it to the trash can or put it back
+The robot can automatically navigate to the desktop to clean up garbage in the home environment: 
+
+YOLOV5 identify the type of object, grab it and throw it to the trash can or put it back
 
 Use the point cloud, calculate the depth information of bounding_box pixels to process the average, and get the position coordinates of the center of gravity point of the object relative to the camera, 
 publish its tf
@@ -22,16 +24,22 @@ Yolov5_ros yolov5.launch
 
 navigation and slam:
 res.launch
+
 slam.launch
+
 navigation.launch
+
 <img width="1409" alt="6a843e9f30220092e7f8bbf770665b3" src="https://github.com/mvyp/Robocup_2024/assets/142517129/6b77ddca-f442-42da-8e71-9b8217ba3551">
 
 
 GPSR: Difficult
 follwer
+
 take the object to placement2
+
 find the object which we need
-person how many |gender|--unfinishd
+
+person how many |gender|
 
 # what is that:
 what is that.sh
@@ -46,7 +54,10 @@ The robot calculates the point of your finger, follows you and broadcasts the ty
 # Rceptionist:
 # Open door.sh
 The task flow of entertaining guests:
+
 1. The robot arm opens the door
+
+
 2. The guest will automatically navigate to the designated location, introduce the guest's name and favorite drink to the host, and guide the guest to an empty seat
 
 
