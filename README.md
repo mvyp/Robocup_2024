@@ -17,7 +17,11 @@ The basic functions of navigation goto (goal) and speech are defined
 The robot human is defined so that navigation, robotic arm visual grasping and speech functions can be integrated
 
 # vision:
-gpd_ros object_position.py
+gpd_ros 
+
+object_position.py
+
+object_tf.cpp
 
 Yolov5_ros yolov5.launch
 
