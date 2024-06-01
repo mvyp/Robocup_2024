@@ -39,6 +39,7 @@ navigation.launch
 
 
 GPSR: Difficult
+
 follwer
 
 take the object to placement2
@@ -49,6 +50,7 @@ person how many |gender|
 
 # what is that:
 what is that.sh
+
 The second line needs to start conda pytorch separately
 
 The right hand is placed on the left shoulder to activate the follower
@@ -93,12 +95,13 @@ The whole point of github is to be able to look at commits and see what's differ
 # Thanks to all the members of the 2024 BUCT Robotics Center
 
 # Thank senior schoolmates for vital help 
+![eb2bfe97192feb813110e6f5cb01d17](https://github.com/mvyp/Robocup_2024/assets/142517129/2c215d19-3414-4eeb-86c5-33a0da105222)
 
 ![1716911297515](https://github.com/mvyp/Robocup_2024/assets/142517129/0aa21fcb-5cd7-4673-a471-d5cd2881c13a)
 ![1716911339113](https://github.com/mvyp/Robocup_2024/assets/142517129/4b1e5fb0-7ef3-4f19-82b5-cc53b5758d2f)
 
 
-![eb2bfe97192feb813110e6f5cb01d17](https://github.com/mvyp/Robocup_2024/assets/142517129/2c215d19-3414-4eeb-86c5-33a0da105222)
+
 
 
 用github的目的是可以查看提交的修改记录，找到每次不同
