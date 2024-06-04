@@ -5,7 +5,19 @@ https://www.bilibili.com/video/BV1Yw4m1S7pn/?share_source=copy_web&vd_source=1d1
 # HARROLD_xjw 
 # Equipment
 
-Kinova robotic arm            Kinect Arzue depth camera        
+Kinova robotic arm            
+Kinect Arzue depth camera        
+# Drive
+Mechanical arm drive
+
+Kinect Azure Camera driver
+
+Pan and tilt drive
+
+Site start-up
+ ```
+all_test.sh
+ ```
 # tidu_up.sh:
 The robot can automatically navigate to the desktop to clean up garbage in the home environment: 
 
@@ -43,9 +55,11 @@ navigation.launch
 
 
 GPSR: Difficult
+ ```
+true_follwer.py
+GPES_find objects.py
 
-follwer
-
+ ```
 take the object to placement2
 
 find the object which we need
@@ -53,8 +67,9 @@ find the object which we need
 person how many |gender|
 
 # what is that:
+ ```
 what is that.sh
-
+ ```
 The second line needs to start conda pytorch separately
 
 The right hand is placed on the left shoulder to activate the follower
@@ -64,13 +79,19 @@ Raising your arm upwards activates the recognition function, which then points t
 The robot calculates the point of your finger, follows you and broadcasts the type of object you are pointing to and features such as color
 
 # Rceptionist:
-# Open door.sh
+ ```
+Open door.sh
+Open door.py
+Receptionist.sh
+Receptionist.py
+ ```
 The task flow of entertaining guests:
 
 1. The robot arm opens the door,welcome the guests,ask for the guest's name and preferred drink
 
-
-2. The robot will automatically navigate to the designated location, introduce the guest's name and favorite drink to the host, and guide the guest to an empty seat
+2. The robot will automatically navigate to the designated location
+ 
+3. introduce the guest's name and favorite drink to the host, and guide the guest to an empty seat
 
 
 mian class init
