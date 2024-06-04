@@ -2,7 +2,8 @@
 # teamwork
 # Video 
 https://www.bilibili.com/video/BV1Yw4m1S7pn/?share_source=copy_web&vd_source=1d11b082e214e205bf1127f07df592b2
-# HARROLD_xjw Equipment
+# HARROLD_xjw 
+# Equipment
 
 Kinova robotic arm            Kinect Arzue depth camera        
 # tidu_up.sh:
@@ -18,21 +19,24 @@ The basic functions of navigation goto (goal) and speech are defined
 The robot human is defined so that navigation, robotic arm visual grasping and speech functions can be integrated
 
 # Vision :
-gpd_ros 
+ ```
+gpd_ros package
 
 object_position.py
 
 object_tf.cpp
 
 Yolov5_ros yolov5.launch
-
+ ```
 
 # Navigation and Slam:
+ ```
 res.launch
 
 slam.launch
 
 navigation.launch
+ ```
 
 
 <img width="1409" alt="6a843e9f30220092e7f8bbf770665b3" src="https://github.com/mvyp/Robocup_2024/assets/142517129/6b77ddca-f442-42da-8e71-9b8217ba3551">
@@ -63,10 +67,10 @@ The robot calculates the point of your finger, follows you and broadcasts the ty
 # Open door.sh
 The task flow of entertaining guests:
 
-1. The robot arm opens the door
+1. The robot arm opens the door,welcome the guests,ask for the guest's name and preferred drink
 
 
-2. The guest will automatically navigate to the designated location, introduce the guest's name and favorite drink to the host, and guide the guest to an empty seat
+2. The robot will automatically navigate to the designated location, introduce the guest's name and favorite drink to the host, and guide the guest to an empty seat
 
 
 mian class init
@@ -75,20 +79,28 @@ navigation--self.goto(0,0,0)
 
 # Speech to text
 Azure subscriptions expire
+
 The rviz node of the camera --notic same node name
+
 Multithreading calls do not interrupt _thread.start_new_thread(text_to_speech, ("task begin!" ))
+
 You can also just call text_to_speech("hurry").
 
 Text-to-speech speech_to_text returns text
+ ```
 
 TF tree view error --rosrun rqt_tf_tree rqt_tf_tree
 
 Node versus topic check --rosrun rqt_graph rqt_graph
+ ```
 
 # position and orientation:
 Save the map:
+ ```
 rosrun map_server map_saver -f my2024_map
+
 python3 '/home/xxx/scripts/teleop_twist_keyboard/teleop_twist_keyboard.py'
+ ```
 
 The whole point of github is to be able to look at commits and see what's different
 
