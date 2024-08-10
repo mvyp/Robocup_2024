@@ -3,11 +3,15 @@
 # Video 
 https://www.bilibili.com/video/BV1Yw4m1S7pn/?share_source=copy_web&vd_source=1d11b082e214e205bf1127f07df592b2
 # HARROLD_xjw 
+
 # Equipment
 
 Kinova robotic arm            
 Kinect Arzue depth camera        
 # Drive
+
+Please click here to view the driver files of the following robots, as well as the driver files of the computer and communication board
+* [seeker](https://github.com/mvyp/seeker)
 Mechanical arm drive
 
 Kinect Azure Camera driver
